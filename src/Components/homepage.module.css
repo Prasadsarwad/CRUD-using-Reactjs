@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#nav>a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    text-shadow: 4px 4px 20px white;
+}
+
+#home{
+    height: 90vh;
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#home>.fb{
+    height: 200px;
+    /* background-color: aqua; */
+    width: 50%;
+}
+#home>.fb>h1{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+
+#home>.fblogin{
+    height: 300px;
+    width: 500px;
+    background-color: white;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    border-radius: 5px;
+}
+
+#home>.fblogin>input{
+    height: 50px;
+    width: 400px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 1px solid rgb(93, 91, 91);
+    
+}
+
+#home>.fblogin>.btn{
+    margin-top: 20px;
+    height: 50px;
+    width: 400px;
+    background-color: rgb(43, 90, 119);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+#usershome{
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+ #usershome>#cards{
+    height: 200px;
+    width: 200px;
+    background-color: aliceblue;
+    border: 5px;
+    box-shadow: 0px 0px 20px white;
+   
+}
+#usershome>#cards>table td{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+
+
